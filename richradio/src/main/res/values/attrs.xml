@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RichRadio">
+        <attr name="icon_check_position" format="enum">
+            <enum name="left" value="0" />
+            <enum name="top" value="1" />
+            <enum name="right" value="2" />
+            <enum name="bottom" value="3" />
+            <enum name="left_top" value="4" />
+            <enum name="right_top" value="5" />
+            <enum name="left_bottom" value="6" />
+            <enum name="right_bottom" value="7" />
+        </attr>
+        <attr name="checked" format="boolean"/>
+        <attr name="checked_color" format="color|reference" />
+        <attr name="unchecked_color" format="color|reference" />
+        <attr name="stroke_width" format="integer" />
+        <attr name="radius" format="dimension" />
+        <attr name="text_size" format="dimension" />
+        <attr name="text" format="string" />
+        <attr name="checkedIcon" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="RichRadioGroup">
+        <attr name="checkedId" format="integer"/>
+    </declare-styleable>
+</resources>
